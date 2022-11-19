@@ -1,0 +1,33 @@
+body {
+    background-color: forestgreen;
+}
+
+#topofboard {
+    display: grid;
+    height: 200pxpx;
+    width: 100px;
+    /* background-color: aqua; */
+    
+}
+
+.collection {
+    display: inline-flex;
+    height: 30px;
+    width: 80px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    background-color: beige;
+    margin: 0px 5px 0px 5px;
+    
+}
+
+.card1 {
+    display: grid;
+    background-color: blue;
+    height: 100PX;
+    width: 100px;
+    
+    border: 2px dotted black;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: 50% 50%;
+}
